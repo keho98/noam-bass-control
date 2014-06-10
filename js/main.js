@@ -1,7 +1,7 @@
 /* global $, _ */
 
 function NoamBassControl() {
-    this.threshold = 5;
+    this.threshold = 5; //Threshold difference between accelerometer values for a valid shake
     this.accelX = null;
     this.accelY = null;
     this.accelZ = null;
